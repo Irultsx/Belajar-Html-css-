@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(249, 250, 255, 1);
+}
+.logo {
+  font-size: 1.05rem;
+  padding-left: 60px;
+}
+nav {
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 30px;
+}
+.nav-link li a {
+  text-decoration: none;
+  color: black;
+}
+.Box {
+  margin: 5rem;
+  text-align: start;
+}
+.Box h1 {
+  margin-bottom: 1rem;
+}
+.Box p span {
+  color: pink;
+}
+.cv {
+  padding: 15px;
+  border: bold;
+  border-color: black;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.project {
+  margin-left: 2rem;
+  padding: 15px;
+  border: bold;
+  border-color: black;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+.atas {
+  color: pink;
+  margin-bottom: 1rem;
+}
+.gambar {
+  position: absolute;
+  top: 100px;
+  right: 1rem;
+  background-color: yellow;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.class2 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+.laptop {
+  width: 400px;
+  background-size: cover;
+  border-radius: 20px;
+}
+.text {
+  margin: 0;
+  padding-right: 10px;
+  margin: 100px;
+}
+.tombolp {
+  margin-left: 2rem;
+  padding: 15px;
+  border: bold;
+  border-color: black;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+.form {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  width: 700px;
+  align-self: center;
+  justify-self: center;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  /* margin: 8px 0; */
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea {
+  width: 100%;
+  padding: 12px;
+}
+input[type="submit"],
+select {
+  padding: 10px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: yellowgreen;
+  color: black;
+  display: flex;
+  justify-self: end;
+}
+
+.icons {
+  width: 100%;
+  text-align: center;
+}
+footer img {
+  width: 50px;
+  padding: 20px;
+}
